@@ -1,6 +1,6 @@
 <!-- @format -->
 
-<img src = "/gif/gif.gif">
+<img src = "/gif/gif.gif" />
 
 # E-Commerce Project
 
