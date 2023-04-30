@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ticaret</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>E-Ticaret
+            <img src="/image/e.png" alt="">
+        </h1>
+        <input type="text" placeholder="ürün ismini giriniz">
+        <div>
+            <button id="open-btn">Sepet</button>
+            <button>
+                <a href="/form/kayit.html" class="form__link">Kayıt Ol</a>
+            </button>
+            <button>
+                <a href="/form/giris.html" class="form__link">Giriş Yap</a> 
+            </button>
+        </div>
+    </header>
+    
+    <main>
+        <!--Kategoriler-->
+        <div class="category-wrapper">
+            <h1>Kategoriler</h1>
+            <div class="categories"></div>
+        </div>
+
+        <!--Ürünler-->
+        <div class="product-wrapper">
+            <h1>Ürünler</h1>
+            <div class="products"></div>
+        </div>
+
+        <div class="modal-wrapper">
+            <div class="modal">
+                <img id="close-btn" src="/image/close.png"/>
+                <div class="modal-list"></div>
+
+                <div class="total">
+                    Toplam:
+                    <span id="modal-info"> 0 </span>
+                    $
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
